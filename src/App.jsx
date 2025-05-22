@@ -1,12 +1,13 @@
+import CreditCard from './components/credit-card/CreditCard';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
-	return (
-		<>
-			<GlobalStyles />
-			<h1>React</h1>
-		</>
-	);
+  return (
+    <>
+      <GlobalStyles />
+      <CreditCard />
+    </>
+  );
 };
 
 export default App;
